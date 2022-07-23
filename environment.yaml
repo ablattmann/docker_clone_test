@@ -1,0 +1,13 @@
+name: vvae
+channels:
+  - pytorch
+dependencies:
+  - python=3.9.7
+  - pip=22.2
+  - numpy=1.21.2
+  - yaml=0.2.5
+  - pip:
+    - absl-py==1.0.0
+    - albumentations==1.1.0
+    - einops==0.3.2
+    - tqdm==4.62.3
